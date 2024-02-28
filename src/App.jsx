@@ -7,7 +7,7 @@ import ExerciseDetail from "./pages/ExerciseDetail";
 
 export default function App() {
   return (
-    <Box width="400px">
+    <Box width="100%">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

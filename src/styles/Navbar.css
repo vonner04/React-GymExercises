@@ -2,6 +2,8 @@
     width:48px;
     height:48px;
     margin: 0 20px;
+    margin-right: 50px;
+    
 }
 
 .navbar--exercises, .navbar--home{
@@ -17,9 +19,15 @@
     gap: 60px;
     font-size:26px;
     align-items:flex-end;
+    margin-bottom:5px;
 }
 
 .navbar-wrapper{
-    justify-content: space-around;
-    margin-left: 20px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    background-color: #e4e4e4;
+    padding: 8px 0px;
+    z-index: 1;
+    margin-top: -8px;
+    
 }
