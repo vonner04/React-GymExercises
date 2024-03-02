@@ -11,6 +11,7 @@
 }
 
 .hero--bannerImage{
+    display:block;
     position: absolute;
     right: 20px;
     left: 450px;
@@ -20,3 +21,9 @@
     margin-top: -250px;
     z-index: -1;
 }
+
+@media (max-width: 1199px) {
+    .hero--bannerImage{
+      display: none;
+    }
+  }
