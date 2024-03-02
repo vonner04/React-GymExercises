@@ -2,7 +2,7 @@
     position: relative;
     padding-left: 20px;
     margin-top: 210px;
-    margin-left:100px;
+    margin-left:150px;
     
 }
 
@@ -18,7 +18,7 @@
     width: 700px;
     height: 900px;
     top: 0;
-    margin-top: -250px;
+    margin-top: -200px;
     z-index: -1;
 }
 
