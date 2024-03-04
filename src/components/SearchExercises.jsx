@@ -8,10 +8,12 @@ export default function SearchExercises() {
 
   const handleSearch = async () => {
     if (search) {
-      const exercises = await fetchData(
+      const exercisesData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises",
         exerciseOptions
       );
+
+      console.log(exercisesData);
     }
   };
 
