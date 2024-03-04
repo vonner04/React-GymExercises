@@ -7,7 +7,10 @@ export default function SearchExercises() {
   const [search, setSearch] = useState("");
 
   const handleSearch = async () => {
+    console.log("searching for exercises");
+
     if (search) {
+      console.log("searching:", search);
       const exercisesData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises",
         exerciseOptions
